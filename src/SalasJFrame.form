@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanelVACUNACION" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanelRECEPCION" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jPanelDESCANSO" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jPanelVACUNACION1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelVACUNACION1" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanelVACUNACION" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jPanelRECEPCION" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanelDESCANSO" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelRECEPCION">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabelRececpion" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="246" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabelColaEspera" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jLabelAux1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jTextFieldAux1" alignment="1" min="-2" pref="84" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                  <Component id="jLabelPacienteRecepcion" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="315" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextFieldPacienteRecepcion" min="-2" pref="77" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabelRececpion" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabelPacienteRecepcion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelAux1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTextFieldAux1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldPacienteRecepcion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+                  <Component id="jLabelColaEspera" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelRececpion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="RECEPCI&#xd3;N"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelColaEspera">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cola de espera"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelAux1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Auxiliar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelPacienteRecepcion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Paciente"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldAux1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldPacienteRecepcion">
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextAreaColaEspera">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelDESCANSO">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabelSDescanso" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDESCANSO" min="-2" pref="186" max="-2" attributes="0"/>
+                  <EmptySpace pref="26" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabelSDescanso" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDESCANSO" pref="146" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelSDescanso">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SALA DE DESCANSO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldDESCANSO">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelVACUNACION">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="c8" green="c8" red="c8" type="rgb"/>
+        </Property>
+        <Property name="doubleBuffered" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabelSVacunacion" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="362" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="jPanelPuestosV" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jTextFieldVacunasDisp" pref="69" max="32767" attributes="0"/>
+                              <Component id="jTextFieldAux2" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabelAux2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabelVacunasDisp" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="jLabelAux2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldAux2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabelVacunasDisp" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldVacunasDisp" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelSVacunacion" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="jPanelPuestosV" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="22" pref="22" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelSVacunacion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SALA DE VACUNACI&#xd3;N"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldVacunasDisp">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldAux2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelAux2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Auxiliar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelVacunasDisp">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Vacunas Disponibles"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanelPuestosV">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextFieldPV1" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV6" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                          <Component id="jLabelPV6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabelPV2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV7" pref="83" max="32767" attributes="0"/>
+                          <Component id="jTextFieldPV2" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabelPV3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV8" alignment="0" pref="83" max="32767" attributes="0"/>
+                          <Component id="jLabelPV8" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV3" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabelPV9" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV9" alignment="0" pref="83" max="32767" attributes="0"/>
+                          <Component id="jTextFieldPV4" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabelPV5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jTextFieldPV10" alignment="1" min="-2" pref="83" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabelPV10" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV5" min="-2" pref="83" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelPV1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldPV1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelPV6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPV7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldPV6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPV10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabelPV1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 6"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 5"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 10"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 9"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 8"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPV7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 7"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV1">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPV1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV6">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV2">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV7">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV3">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV8">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV4">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV5">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV9">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPV10">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPV10ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelVACUNACION1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabelSObservacion" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="362" max="-2" attributes="0"/>
+              </Group>
+              <Component id="jPanelPuestosV1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelSObservacion" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanelPuestosV1" max="32767" attributes="0"/>
+                  <EmptySpace min="22" pref="22" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelSObservacion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SALA DE OBSERVACI&#xd3;N"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanelPuestosV1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabelPO1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                      <Component id="jLabelPO2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextFieldPO1" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                                          <Component id="jLabelPO11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextFieldPO2" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                                          <Component id="jLabelPO12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelPO3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldPO3" min="-2" pref="83" max="-2" attributes="0"/>
+                                          <Component id="jLabelPO13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelPO14" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelPO4" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldPO4" min="-2" pref="83" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelPO5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldPO5" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <Component id="jLabelPO15" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jTextFieldPO11" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPO12" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPO13" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPO14" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPO15" min="-2" pref="83" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelPO6" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldPO6" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <Component id="jLabelPO16" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelPO7" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldPO7" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <Component id="jLabelPO17" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelPO8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldPO8" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <Component id="jLabelPO18" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelPO9" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldPO9" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <Component id="jLabelPO19" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelPO20" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelPO10" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldPO10" min="-2" pref="83" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jTextFieldPO16" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPO17" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPO18" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPO19" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextFieldPO20" min="-2" pref="83" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelPO1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldPO1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelPO11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPO20" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldPO12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPO20" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="28" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabelPO1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 6"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 5"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 10"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 9"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 8"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 7"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO1">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO6">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO2">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO7">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO3">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO8">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO4">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO5">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO9">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO10">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 11"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 12"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 13"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 14"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 15"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 16"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO17">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 17"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO18">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 18"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 19"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPO20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto 20"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO12">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO12ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO11">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO11ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO13">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO13ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO14">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO14ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO16">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO16ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO15">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO15ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO17">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO17ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO18">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO18ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO19">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO19ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldPO20">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPO20ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
